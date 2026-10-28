@@ -177,7 +177,7 @@ Python · SQL · PL/SQL · JavaScript · Unix Shell · ETL Pipelines · Oracle D
 FastAPI · Streamlit · Ollama · Docker · Docker Compose · Git · GitHub · VS Code
 
 ### AI Evaluation & Safety
-RAG Answer Evaluation · Safety Escalation · Human Approval for Tool Actions
+RAG Answer Evaluation · Safety Escalation · Human Approval for Tool Actions · Tool Call Evaluation · prompt-injection · pytest
 
 ---
 

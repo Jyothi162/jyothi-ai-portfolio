@@ -10,7 +10,9 @@ A modern, responsive portfolio showcasing my journey from **Data Analyst and Dat
 
 💻 **GitHub repository:** [jyothi-ai-portfolio](https://github.com/Jyothi162/jyothi-ai-portfolio)
 
-🌍 **Live portfolio:** Deployment link will be added after publishing.
+ ## 🔗 Live Demo
+
+🌍 **Portfolio:** https://jyothi-ai-portfolio.vercel.app/
 
 ---
 

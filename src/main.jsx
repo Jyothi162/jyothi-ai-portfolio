@@ -68,7 +68,7 @@ const technologyGroups = [
   { title: 'Agentic AI & Retrieval', icon: Layers3, items: ['AI Agents', 'Tool Calling', 'Human-in-the-Loop', 'Hybrid Search', 'Embeddings', 'Prompt Design', 'RAG Evaluation'] },
   { title: 'Databases & Data Engineering', icon: Database, items: ['ChromaDB', 'SQLite', 'Oracle Database', 'ETL Pipelines', 'Data Processing', 'Vector Search'] },
   { title: 'Tools & Deployment', icon: ServerCog, items: ['Docker', 'Docker Compose', 'Ollama', 'Git', 'GitHub', 'Streamlit', 'VS Code'] },
-  { title: 'AI Security & Evaluation', icon: ShieldCheck, items: ['Safety Escalation', 'Human-in-the-Loop Approval', 'RAG Answer Evaluation', 'pytest', 'Safety Scenario Testing', 'Tool Call Evaluation'] }
+  { title: 'AI Security & Evaluation', icon: ShieldCheck, items: ['Safety Escalation', 'Human-in-the-Loop Approval', 'RAG Answer Evaluation', 'pytest', 'Safety Scenario Testing', 'Tool Call Evaluation','prompt-injection'] }
 ];
 
 const nav = ['About', 'Projects', 'Experience', 'Skills', 'Education', 'Contact'];

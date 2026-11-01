@@ -106,9 +106,9 @@ function App() {
           <div className="inline-flex items-center gap-2 rounded-full pill px-4 py-2 text-sm"><MapPin size={15} /> Berlin, Germany · Open to AI opportunities</div>
           <p className="mt-10 text-lg md:text-xl font-semibold text-teal-300">👋 Hi, I'm</p>
           <h1 className="text-5xl sm:text-6xl md:text-8xl font-extrabold mt-4 leading-tight tracking-tight text-white">Jyothi Rajan</h1>
-          <p className="mt-5 uppercase tracking-[.22em] sm:tracking-[.35em] text-teal-300 text-sm md:text-lg font-bold">AI & Machine Learning Engineer</p>
+          <p className="mt-5 uppercase tracking-[.22em] sm:tracking-[.35em] text-teal-300 text-sm md:text-lg font-bold">AI Engineer | Generative AI & Agentic Systems</p>
           <p className="mt-4 text-slate-400 text-sm md:text-base">Agentic AI · RAG · LLM Applications · Automation</p>
-          <p className="max-w-3xl mx-auto text-slate-300 text-base md:text-lg mt-8 leading-8">M.Sc. Artificial Intelligence student at IU International University in Berlin, with professional experience in data engineering and analytics. I design and build AI agents, retrieval-augmented generation (RAG) systems, LLM-powered applications, and practical automation solutions.</p>
+          <p className="max-w-3xl mx-auto text-slate-300 text-base md:text-lg mt-8 leading-8">M.Sc. Artificial Intelligence student at IU International University in Berlin, with 7+ years of professional experience in data engineering, Python automation, and analytics. I design and build agentic AI applications, secure Retrieval-Augmented Generation (RAG) systems, LLM-powered assistants, and intelligent workflow automation solutions using modern AI engineering technologies.</p>
           <div className="flex flex-wrap gap-3 justify-center mt-9">
             <a href="#projects" className="bg-teal-400 text-slate-950 font-bold rounded-xl px-6 py-3 hover:bg-teal-300 transition-colors">Explore Projects ↗</a>
             <a href={github} target="_blank" rel="noreferrer" className="glass rounded-xl px-6 py-3 inline-flex items-center gap-2 hover:border-teal-400/60"><Github size={18} /> GitHub</a>

@@ -39,7 +39,7 @@ const projects = [
     name: 'Enterprise Agentic RAG Assistant', category: 'Enterprise AI · Knowledge Retrieval',
     description: 'Enterprise AI assistant for retrieving internal knowledge, generating source-grounded answers, and orchestrating tool-assisted workflows with evaluation and access-control considerations.',
     stack: ['Python', 'LangGraph', 'LangChain', 'Llama 3.2', 'Ollama', 'ChromaDB', 'BM25', 'Hybrid Retrieval', 'FastAPI', 'Streamlit', 'SQLite', 'Docker', 'pytest', 'JWT', 'RBAC'],
-    url: null, status: 'Built', icon: Layers3
+    url: `${github}/enterprise-agentic-rag`, status: 'Built', icon: Layers3
   },
   {
     name: 'TransGo AI Logistics Assistant', category: 'Conversational AI · NLP',

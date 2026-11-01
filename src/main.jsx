@@ -108,7 +108,7 @@ function App() {
           <h1 className="text-5xl sm:text-6xl md:text-8xl font-extrabold mt-4 leading-tight tracking-tight text-white">Jyothi Rajan</h1>
           <p className="mt-5 uppercase tracking-[.22em] sm:tracking-[.35em] text-teal-300 text-sm md:text-lg font-bold">AI Engineer | Generative AI & Agentic Systems</p>
           <p className="mt-4 text-slate-400 text-sm md:text-base">Agentic AI · RAG · LLM Applications · Automation</p>
-          <p className="max-w-3xl mx-auto text-slate-300 text-base md:text-lg mt-8 leading-8">M.Sc. Artificial Intelligence student at IU International University in Berlin, with 7+ years of professional experience in data engineering, Python automation, and analytics. I design and build agentic AI applications, secure Retrieval-Augmented Generation (RAG) systems, LLM-powered assistants, and intelligent workflow automation solutions using modern AI engineering technologies.</p>
+          <p className="max-w-3xl mx-auto text-slate-300 text-base md:text-lg mt-8 leading-8">M.Sc. Artificial Intelligence student at IU International University in Berlin, with 7+ years of experience in data engineering and Python automation. I build secure agentic AI applications, enterprise RAG systems, and LLM-powered automation solutions using LangGraph, LangChain, FastAPI, and Docker.</p>
           <div className="flex flex-wrap gap-3 justify-center mt-9">
             <a href="#projects" className="bg-teal-400 text-slate-950 font-bold rounded-xl px-6 py-3 hover:bg-teal-300 transition-colors">Explore Projects ↗</a>
             <a href={github} target="_blank" rel="noreferrer" className="glass rounded-xl px-6 py-3 inline-flex items-center gap-2 hover:border-teal-400/60"><Github size={18} /> GitHub</a>
@@ -123,11 +123,11 @@ function App() {
         <section id="about" className="max-w-6xl mx-auto px-5 py-20">
           <SectionTitle title="About Me" eyebrow="My background" />
           <div className="glass rounded-2xl p-7 md:p-10 max-w-4xl mx-auto">
-            <p className="text-slate-300 leading-8 text-lg">I am an AI Engineering enthusiast currently pursuing a Master's in Artificial Intelligence at IU International University of Applied Sciences in Berlin, with over 7 years of professional experience in data engineering, ETL, Python automation, and analytics.
+            <p className="text-slate-300 leading-8 text-lg">I am currently pursuing an M.Sc. in Artificial Intelligence at IU International University of Applied Sciences in Berlin, bringing over 7 years of professional experience in data engineering, ETL, Python automation, and analytics.
 
-I specialize in building practical AI applications, including agentic AI assistants, secure Retrieval-Augmented Generation (RAG) systems, and intelligent workflow automation. My hands-on projects combine LangGraph, LangChain, LLMs, vector databases, FastAPI, and Docker to develop reliable, scalable AI solutions.
+My focus is on designing and developing practical AI applications, including agentic AI assistants, secure Retrieval-Augmented Generation (RAG) systems, and intelligent workflow automation. I work with LangGraph, LangChain, LLMs, vector databases, FastAPI, and Docker to build reliable AI solutions.
 
-I am passionate about Generative AI, AI agents, enterprise knowledge retrieval, and responsible AI development, with a strong focus on solving real-world business problems..</p>
+I am particularly interested in Generative AI, enterprise AI agents, secure knowledge retrieval, and responsible AI development. My goal is to apply these technologies to solve real-world business challenges.</p>
           </div>
         </section>
 

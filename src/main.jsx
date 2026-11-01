@@ -43,20 +43,20 @@ const projects = [
   },
   {
     name: 'TransGo AI Logistics Assistant', category: 'Conversational AI · NLP',
-    description: 'Rasa-powered logistics chatbot integrating real-time weather information and weather-related transport risk assessment.',
-    stack: ['Rasa', 'Python', 'OpenWeatherMap', 'JavaScript'],
+    description: 'Developed a Rasa-based conversational AI assistant for logistics operations, integrating real-time weather data through the OpenWeatherMap API. Implemented intent recognition, entity extraction, and weather-related transport risk assessment, with a responsive web interface.',
+    stack: ['Rasa', 'Python', 'OpenWeatherMap','NLU', 'HTML/CSS', 'REST APIs', 'JavaScript'],
     url: `${github}/transgo-ai-logistics-assistant`, status: 'Built', icon: Code2
   },
   {
     name: 'DistilBERT Sentiment Classification', category: 'NLP · Machine Learning',
-    description: 'Fine-tuning DistilBERT for binary sentiment classification of e-commerce product reviews.',
-    stack: ['PyTorch', 'Hugging Face', 'DistilBERT'],
+    description: 'Fine-tuned DistilBERT using Hugging Face Transformers and PyTorch for binary sentiment classification of e-commerce product reviews, achieving 90.75% accuracy and 90.70% F1-score on unseen validation data. Implemented text preprocessing, tokenization, model training, and performance evaluation.',
+    stack: ['PyTorch', 'Hugging Face', 'Transformers', 'Scikit-learn', 'NLP', 'Python', 'DistilBERT'],
     url: `${github}/DistilBERT-Sentiment-Classification`, status: 'Built', icon: BrainCircuit
   },
   {
-    name: 'Ideal Function Selection and Data Mapping', category: 'Python · Data Analysis',
-    description: 'Selects mathematical functions using mean squared error and maps test data with SQLite-backed results.',
-    stack: ['Python', 'Pandas', 'NumPy', 'SQLite'],
+    name: 'Ideal Function Selection and Data Mapping', category: 'Python · Data Engineering',
+    description: 'Developed a Python-based data mapping application that selects optimal mathematical functions using Mean Squared Error (MSE). Implemented training and test data mapping, SQLite database integration, automated testing, and Matplotlib visualizations to analyze function selection and mapping performance.',
+    stack: ['Python', 'Pandas', 'NumPy', 'Matplotlib', 'Unit Testing', 'MSE', 'SQLite'],
     url: `${github}/Ideal-Function-Selection-and-Data-Mapping`, status: 'Built', icon: Database
   }
 ];

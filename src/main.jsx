@@ -37,9 +37,9 @@ const projects = [
   },
   {
     name: 'Enterprise Agentic RAG Assistant', category: 'Enterprise AI · Knowledge Retrieval',
-    description: 'Enterprise document assistant in development, focused on agent orchestration, source-grounded answers, and systematic evaluation.',
-    stack: ['Python', 'LangGraph', 'Enterprise RAG', 'Document Retrieval'],
-    url: null, status: 'In development', icon: Layers3
+    description: 'Enterprise AI assistant for retrieving internal knowledge, generating source-grounded answers, and orchestrating tool-assisted workflows with evaluation and access-control considerations.',
+    stack: ['Python', 'LangGraph', 'LangChain', 'Llama 3.2', 'Ollama', 'ChromaDB', 'BM25', 'Hybrid Retrieval', 'FastAPI', 'Streamlit', 'SQLite', 'Docker', 'pytest', 'JWT', 'RBAC'],
+    url: null, status: 'Built', icon: Layers3
   },
   {
     name: 'TransGo AI Logistics Assistant', category: 'Conversational AI · NLP',
@@ -68,7 +68,7 @@ const technologyGroups = [
   { title: 'Agentic AI & Retrieval', icon: Layers3, items: ['AI Agents', 'Tool Calling', 'Human-in-the-Loop', 'Hybrid Search', 'Embeddings', 'Prompt Design', 'RAG Evaluation'] },
   { title: 'Databases & Data Engineering', icon: Database, items: ['ChromaDB', 'SQLite', 'Oracle Database', 'ETL Pipelines', 'Data Processing', 'Vector Search'] },
   { title: 'Tools & Deployment', icon: ServerCog, items: ['Docker', 'Docker Compose', 'Ollama', 'Git', 'GitHub', 'Streamlit', 'VS Code'] },
-  { title: 'AI Security & Evaluation', icon: ShieldCheck, items: ['Safety Escalation', 'Human-in-the-Loop Approval', 'RAG Answer Evaluation', 'pytest', 'Safety Scenario Testing', 'Tool Call Evaluation','prompt-injection'] }
+  { title: 'AI Security & Evaluation', icon: ShieldCheck, items: ['Safety Escalation', 'Human-in-the-Loop Approval', 'RAG Answer Evaluation', 'pytest', 'Safety Scenario Testing', 'Tool Call Evaluation'] }
 ];
 
 const nav = ['About', 'Projects', 'Experience', 'Skills', 'Education', 'Contact'];

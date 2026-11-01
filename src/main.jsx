@@ -14,7 +14,7 @@ const linkedin = 'https://www.linkedin.com/in/jyothi-rajan-02b639151/';
 const projects = [
   {
     name: 'EnergyOps AI', category: 'Agentic AI · RAG',
-    description: 'Agentic AI platform for solar-energy customer support, combining RAG-based knowledge retrieval, LangGraph workflow orchestration, automated installation-status lookup, human-in-the-loop ticket approval, and electrical safety escalation. Built with FastAPI, Streamlit, and Docker.',
+    description: 'AI-powered solar support assistant with document-grounded responses, agent workflows, human approval for support tickets, and electrical safety escalation.',
     stack: [
   'Python',
   'Llama 3.2',

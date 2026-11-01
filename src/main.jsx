@@ -38,7 +38,7 @@ const projects = [
   {
     name: 'Enterprise Agentic RAG Assistant', category: 'Enterprise AI · Knowledge Retrieval',
     description: 'Enterprise AI assistant for retrieving internal knowledge, generating source-grounded answers, and orchestrating tool-assisted workflows with evaluation and access-control considerations.',
-    stack: ['Python', 'LangGraph', 'LangChain', 'Llama 3.2', 'Ollama', 'ChromaDB', 'BM25', 'Hybrid Retrieval', 'FastAPI', 'Streamlit', 'SQLite', 'Docker', 'pytest', 'JWT', 'RBAC'],
+    stack: ['Python', 'LangGraph', 'LangChain', 'Llama 3.2', 'Ollama', 'Qdrant', 'Vector embeddings', 'FastAPI', 'Streamlit', 'Docker', 'pytest', 'JWT', 'RBAC'],
     url: `${github}/enterprise-agentic-rag`, status: 'Built', icon: Layers3
   },
   {

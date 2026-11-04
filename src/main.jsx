@@ -112,6 +112,13 @@ function App() {
           <div className="flex flex-wrap gap-3 justify-center mt-9">
             <a href="#projects" className="bg-teal-400 text-slate-950 font-bold rounded-xl px-6 py-3 hover:bg-teal-300 transition-colors">Explore Projects ↗</a>
             <a href={github} target="_blank" rel="noreferrer" className="glass rounded-xl px-6 py-3 inline-flex items-center gap-2 hover:border-teal-400/60"><Github size={18} /> GitHub</a>
+            <a
+  href="/Jyothi_Rajan_CV.pdf"
+  download="Jyothi_Rajan_CV.pdf"
+  className="glass rounded-xl px-6 py-3 inline-flex items-center gap-2 hover:border-teal-400/60"
+>
+  Download CV ↓
+</a>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-3xl mx-auto mt-16">
             <div className="glass rounded-2xl p-5"><GraduationCap className="text-teal-300 mx-auto" /><strong className="block text-xl mt-2">M.Sc.</strong><span className="text-xs text-slate-400">Artificial Intelligence</span></div>

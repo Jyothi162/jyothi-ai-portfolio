@@ -12,6 +12,34 @@ const email = 'jyothirajan162@gmail.com';
 const linkedin = 'https://www.linkedin.com/in/jyothi-rajan-02b639151/';
 
 const projects = [
+
+  {
+    name: 'DevOps Pilot AI — Multi-Agent Incident Investigation Platform',
+    category: 'Agentic AI · DevOps Automation · Cloud',
+    description: 'Developed and deployed a cloud-based multi-agent AI platform using LangGraph to orchestrate five specialized agents for infrastructure monitoring, log analysis, incident diagnosis, and safe remediation recommendations. Integrated a custom MCP server/client for simulated infrastructure data, Groq and Ollama for LLM reasoning, and Langfuse for agent observability. Implemented automated CI/CD with GitHub Actions, Docker, GHCR, and secure Azure Container Apps deployment using OIDC authentication.',
+    stack: [
+      'Python',
+      'Multi-Agent Systems',
+      'LangGraph',
+      'LangChain',
+      'MCP',
+      'Groq',
+      'Ollama',
+      'FastAPI',
+      'Docker',
+      'CI/CD',
+      'GitHub Actions',
+      'GHCR',
+      'Azure Container Apps',
+      'OIDC',
+      'Langfuse',
+      'pytest'
+    ],
+    url: `${github}/devops-pilot-ai`,
+    status: 'Built',
+    icon: ServerCog
+  },
+
   {
     name: 'EnergyOps AI', category: 'Agentic AI · RAG',
     description: 'Agentic AI platform for solar-energy customer support, combining RAG-based knowledge retrieval, LangGraph workflow orchestration, automated installation-status lookup, human-in-the-loop ticket approval, and electrical safety escalation. Built with FastAPI, Streamlit, and Docker.',

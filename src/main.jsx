@@ -40,6 +40,30 @@ const projects = [
     icon: ServerCog
   },
 
+{
+  name: 'FlowForge AI — Intelligent Business Automation Platform',
+  category: 'AI Automation · n8n · Business Workflows',
+  description: 'Developed an AI-powered business automation platform using n8n, FastAPI, Ollama (Llama 3.2), and PostgreSQL to automate customer request processing, LLM-based classification, and department routing. Implemented human-in-the-loop approval for high-priority requests, API-key and webhook authentication, database persistence, and Docker-based deployment. Validated core functionality with 10 passing automated tests.',
+  stack: [
+    'Python',
+    'n8n',
+    'FastAPI',
+    'Ollama',
+    'Llama 3.2',
+    'PostgreSQL',
+    'Docker',
+    'REST APIs',
+    'AI Automation',
+    'Workflow Orchestration',
+    'Human-in-the-Loop',
+    'pytest'
+  ],
+  url: `${github}/flowforge-ai`,
+  status: 'Built',
+  icon: Boxes
+},
+
+
   {
     name: 'EnergyOps AI', category: 'Agentic AI · RAG',
     description: 'Agentic AI platform for solar-energy customer support, combining RAG-based knowledge retrieval, LangGraph workflow orchestration, automated installation-status lookup, human-in-the-loop ticket approval, and electrical safety escalation. Built with FastAPI, Streamlit, and Docker.',

@@ -62,8 +62,6 @@ const projects = [
   status: 'Built',
   icon: Boxes
 },
-
-
   {
     name: 'EnergyOps AI', category: 'Agentic AI · RAG',
     description: 'Agentic AI platform for solar-energy customer support, combining RAG-based knowledge retrieval, LangGraph workflow orchestration, automated installation-status lookup, human-in-the-loop ticket approval, and electrical safety escalation. Built with FastAPI, Streamlit, and Docker.',
@@ -113,15 +111,96 @@ const projects = [
   }
 ];
 
+
 const technologyGroups = [
-  { title: 'AI & Machine Learning', icon: BrainCircuit, items: ['Machine Learning', 'Deep Learning', 'NLP', 'LLMs', 'Generative AI', 'RAG', 'Sentiment Analysis'] },
-  { title: 'Programming', icon: Code2, items: ['Python', 'SQL', 'PL/SQL', 'JavaScript', 'Unix Shell'] },
-  { title: 'Frameworks & Libraries', icon: Boxes, items: ['LangChain', 'LangGraph', 'PyTorch', 'Hugging Face', 'FastAPI', 'Rasa', 'Pandas', 'NumPy'] },
-  { title: 'Agentic AI & Retrieval', icon: Layers3, items: ['AI Agents', 'Tool Calling', 'Human-in-the-Loop', 'Hybrid Search', 'Embeddings', 'Prompt Design', 'RAG Evaluation'] },
-  { title: 'Databases & Data Engineering', icon: Database, items: ['ChromaDB', 'SQLite', 'Oracle Database', 'ETL Pipelines', 'Data Processing', 'Vector Search'] },
-  { title: 'Tools & Deployment', icon: ServerCog, items: ['Docker', 'Docker Compose', 'Ollama', 'Git', 'GitHub', 'Streamlit', 'VS Code'] },
-  { title: 'AI Security & Evaluation', icon: ShieldCheck, items: ['Safety Escalation', 'Human-in-the-Loop Approval', 'RAG Answer Evaluation', 'pytest', 'Safety Scenario Testing', 'prompt-injection', 'Tool Call Evaluation'] }
+  {
+    title: 'AI & Machine Learning',
+    icon: BrainCircuit,
+    items: [
+      'Machine Learning', 'Deep Learning', 'NLP',
+      'LLMs', 'Generative AI', 'RAG',
+      'Sentiment Analysis', 'Multi-Agent Systems'
+    ]
+  },
+  {
+    title: 'Programming',
+    icon: Code2,
+    items: [
+      'Python', 'SQL', 'PL/SQL',
+      'JavaScript', 'Unix Shell'
+    ]
+  },
+  {
+    title: 'Frameworks & Libraries',
+    icon: Boxes,
+    items: [
+      'LangChain', 'LangGraph', 'PyTorch',
+      'Hugging Face', 'FastAPI', 'Rasa',
+      'Pandas', 'NumPy'
+    ]
+  },
+  {
+    title: 'Agentic AI & Retrieval',
+    icon: Layers3,
+    items: [
+      'AI Agents', 'MCP', 'Tool Calling',
+      'Agent Orchestration', 'Human-in-the-Loop',
+      'Hybrid Search', 'Embeddings',
+      'Prompt Design', 'RAG Evaluation'
+    ]
+  },
+  {
+    title: 'Databases & Data Engineering',
+    icon: Database,
+    items: [
+      'PostgreSQL', 'Qdrant', 'ChromaDB',
+      'SQLite', 'Oracle Database',
+      'ETL Pipelines', 'Data Processing',
+      'Vector Search'
+    ]
+  },
+  {
+    title: 'Tools & Deployment',
+    icon: ServerCog,
+    items: [
+      'Docker', 'Docker Compose',
+      'Microsoft Azure', 'Azure Container Apps',
+      'GitHub Actions', 'CI/CD', 'GHCR',
+      'OIDC', 'Ollama', 'Git', 'GitHub',
+      'Streamlit', 'VS Code'
+    ]
+  },
+  {
+    title: 'AI Security & Evaluation',
+    icon: ShieldCheck,
+    items: [
+      'Safety Escalation', 'Human-in-the-Loop Approval',
+      'JWT Authentication', 'RBAC',
+      'API-Key Authentication', 'Prompt Injection',
+      'RAG Answer Evaluation', 'pytest',
+      'Safety Scenario Testing', 'Tool Call Evaluation'
+    ]
+  },
+  {
+    title: 'Automation & Integration',
+    icon: Code2,
+    items: [
+      'n8n', 'Workflow Automation',
+      'Workflow Orchestration', 'REST APIs',
+      'Webhooks', 'Python Automation',
+      'LLM Integration'
+    ]
+  },
+  {
+    title: 'Observability',
+    icon: ServerCog,
+    items: [
+      'Langfuse', 'LLM Tracing',
+      'Agent Execution Tracing'
+    ]
+  }
 ];
+
 
 const nav = ['About', 'Projects', 'Experience', 'Skills', 'Education', 'Contact'];
 
@@ -160,7 +239,9 @@ function App() {
           <h1 className="text-5xl sm:text-6xl md:text-8xl font-extrabold mt-4 leading-tight tracking-tight text-white">Jyothi Rajan</h1>
           <p className="mt-5 uppercase tracking-[.22em] sm:tracking-[.35em] text-teal-300 text-sm md:text-lg font-bold">AI Engineer | Generative AI & Agentic Systems</p>
           <p className="mt-4 text-slate-400 text-sm md:text-base">Agentic AI · RAG · LLM Applications · Automation</p>
-          <p className="max-w-3xl mx-auto text-slate-300 text-base md:text-lg mt-8 leading-8">M.Sc. Artificial Intelligence student at IU International University in Berlin, with 7+ years of experience in data engineering and Python automation. I build secure agentic AI applications, enterprise RAG systems, and LLM-powered automation solutions using LangGraph, LangChain, FastAPI, and Docker.</p>
+          <p className="max-w-3xl mx-auto text-slate-300 text-base md:text-lg mt-8 leading-8">
+M.Sc. Artificial Intelligence student at IU International University in Berlin, with 7+ years of experience in data engineering and Python automation. I build agentic AI systems, enterprise RAG applications, and intelligent business automation solutions using LangGraph, LangChain, n8n, FastAPI, PostgreSQL, Docker, and Azure.
+.</p>
           <div className="flex flex-wrap gap-3 justify-center mt-9">
             <a href="#projects" className="bg-teal-400 text-slate-950 font-bold rounded-xl px-6 py-3 hover:bg-teal-300 transition-colors">Explore Projects ↗</a>
             <a href={github} target="_blank" rel="noreferrer" className="glass rounded-xl px-6 py-3 inline-flex items-center gap-2 hover:border-teal-400/60"><Github size={18} /> GitHub</a>
@@ -184,7 +265,7 @@ function App() {
           <div className="glass rounded-2xl p-7 md:p-10 max-w-4xl mx-auto">
             <p className="text-slate-300 leading-8 text-lg">I am currently pursuing an M.Sc. in Artificial Intelligence at IU International University of Applied Sciences in Berlin, bringing over 7 years of professional experience in data engineering, ETL, Python automation, and analytics.
 
-My focus is on designing and developing practical AI applications, including agentic AI assistants, secure Retrieval-Augmented Generation (RAG) systems, and intelligent workflow automation. I work with LangGraph, LangChain, LLMs, vector databases, FastAPI, and Docker to build reliable AI solutions.
+My focus is on designing and developing practical AI applications, including agentic AI assistants, secure Retrieval-Augmented Generation (RAG) systems, and intelligent workflow automation. I work with LangGraph, LangChain, MCP, n8n, LLMs, vector databases, FastAPI, PostgreSQL, Docker, and Azure to build practical AI solutions. My projects cover multi-agent orchestration, business workflow automation, secure enterprise knowledge retrieval, CI/CD, and LLM observability.
 
 I am particularly interested in Generative AI, enterprise AI agents, secure knowledge retrieval, and responsible AI development. My goal is to apply these technologies to solve real-world business challenges.</p>
           </div>

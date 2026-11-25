@@ -218,19 +218,71 @@ function App() {
   const [open, setOpen] = React.useState(false);
   return (
     <div className="min-h-screen glow text-slate-100">
-      <header className="sticky top-0 z-20 border-b border-white/10 bg-[#0b1018]/95 backdrop-blur">
-        <div className="mx-auto max-w-6xl px-5 py-4 flex items-center justify-between">
-          <a href="#home" className="flex items-center gap-3 font-bold">
-            <span className="rounded-xl bg-teal-400 text-[#08131b] px-3 py-2">JR</span>
-            <span>Jyothi Rajan<span className="block text-xs font-normal text-slate-400">AI & Machine Learning Engineer</span></span>
-          </a>
-          <nav className="hidden md:flex gap-6 text-sm text-slate-300">
-            {nav.map(n => <a key={n} href={`#${n.toLowerCase()}`} className="hover:text-teal-300 transition-colors">{n}</a>)}
-          </nav>
-          <button className="md:hidden" aria-label="Toggle navigation" aria-expanded={open} onClick={() => setOpen(!open)}>{open ? <X /> : <Menu />}</button>
-        </div>
-        {open && <nav className="md:hidden px-6 pb-5 flex flex-wrap gap-4 text-sm">{nav.map(n => <a key={n} onClick={() => setOpen(false)} href={`#${n.toLowerCase()}`}>{n}</a>)}</nav>}
-      </header>
+     
+<header className="sticky top-0 z-20 border-b border-white/10 bg-[#0b1018]/95 backdrop-blur">
+
+  <div className="mx-auto max-w-7xl px-6 py-5 flex items-center justify-between">
+
+    <a href="#home" className="flex items-center gap-4 font-bold">
+
+      <span className="rounded-xl bg-teal-400 text-[#08131b] px-4 py-3 text-xl">
+        JR
+      </span>
+
+      <span className="text-xl">
+        Jyothi Rajan
+
+        <span className="block text-sm font-normal text-slate-400 mt-1">
+          AI & Machine Learning Engineer
+        </span>
+
+      </span>
+
+    </a>
+
+    <nav className="hidden lg:flex gap-8 text-base font-medium text-slate-300">
+
+      {nav.map(n => (
+        <a
+          key={n}
+          href={`#${n.toLowerCase()}`}
+          className="hover:text-teal-300 transition-colors"
+        >
+          {n}
+        </a>
+      ))}
+
+    </nav>
+
+    <button
+      className="lg:hidden"
+      aria-label="Toggle navigation"
+      aria-expanded={open}
+      onClick={() => setOpen(!open)}
+    >
+      {open ? <X /> : <Menu />}
+    </button>
+
+  </div>
+
+  {open && (
+    <nav className="lg:hidden px-6 pb-5 flex flex-wrap gap-5 text-base">
+
+      {nav.map(n => (
+        <a
+          key={n}
+          onClick={() => setOpen(false)}
+          href={`#${n.toLowerCase()}`}
+        >
+          {n}
+        </a>
+      ))}
+
+    </nav>
+  )}
+
+</header>
+
 
       <main id="home">
         <section className="max-w-6xl mx-auto px-5 pt-20 md:pt-28 pb-24 text-center">

@@ -288,186 +288,26 @@ I am particularly interested in Generative AI, enterprise AI agents, secure know
           </div>
         </section>
 
-        
-<section id="experience" className="max-w-6xl mx-auto px-5 py-20">
+        <section id="experience" className="max-w-6xl mx-auto px-5 py-20">
+          <SectionTitle eyebrow="Career journey" title="Professional Experience" />
+          <div className="grid md:grid-cols-2 gap-5">
+            <div className="glass rounded-2xl p-7"><BriefcaseBusiness className="text-teal-300" /><p className="text-teal-300 text-sm mt-4">Aug 2020 – Jan 2024</p><h3 className="text-xl font-bold mt-2">Data Engineer</h3><p className="text-slate-400 mt-1">Stecktra Technologies · Bengaluru</p><p className="text-slate-300 mt-4 leading-7">Developed Python automation and web data extraction workflows, worked with ETL pipelines, Oracle PL/SQL, and Unix shell scripting.</p></div>
+            <div className="glass rounded-2xl p-7"><BriefcaseBusiness className="text-teal-300" /><p className="text-teal-300 text-sm mt-4">Jan 2016 – Jan 2020</p><h3 className="text-xl font-bold mt-2">Data Analyst</h3><p className="text-slate-400 mt-1">Stecktra Technologies · Bengaluru</p><p className="text-slate-300 mt-4 leading-7">Worked on product catalog data preparation, specification processing, data formatting, and integration.</p></div>
+          </div>
+        </section>
 
-  <SectionTitle
-    eyebrow="Career Journey"
-    title="Professional Experience"
-    description="7+ years of professional experience in data engineering, enterprise data integration, analytics, and process automation."
-  />
-
-  <div className="grid md:grid-cols-2 gap-5">
-
-    {/* Data Engineer */}
-
-    <article className="project glass rounded-2xl p-6 md:p-8">
-
-      <div className="flex justify-between items-start gap-4">
-
-        <div className="p-3 bg-teal-400/10 rounded-xl">
-          <BriefcaseBusiness
-            className="text-teal-300"
-            size={28}
-          />
-        </div>
-
-        <span className="text-xs rounded-full border border-slate-600 px-3 py-1 text-slate-300">
-          Full-time
-        </span>
-
-      </div>
-
-      <p className="text-xs uppercase tracking-widest text-teal-300 mt-6">
-        Aug 2020 – Jan 2024
-      </p>
-
-      <h3 className="text-2xl font-bold mt-2">
-        Data Engineer
-      </h3>
-
-      <p className="text-slate-400 mt-2">
-        Stecktra Technologies Pvt. Ltd.
-      </p>
-
-      <p className="text-slate-400 text-sm mt-1">
-        Bengaluru, Karnataka, India · 3 years 6 months
-      </p>
-
-      <p className="text-slate-300 mt-4 leading-7">
-        Worked on enterprise data engineering, data integration,
-        ETL pipelines, and process automation. Developed and
-        maintained ETL pipelines for enterprise data processing
-        and integration. Used Oracle SQL and PL/SQL for data
-        extraction, transformation, and database development.
-        Developed Python and Unix Shell scripts to automate
-        repetitive data processing tasks.
-      </p>
-
-      <p className="text-slate-300 mt-3 leading-7">
-        Supported database operations, data validation, data
-        quality checks, and troubleshooting. Worked with
-        relational databases and enterprise data workflows.
-        Supported the integration of data across business
-        applications and contributed to improving the reliability
-        and efficiency of data processing workflows.
-      </p>
-
-      <div className="flex flex-wrap gap-2 mt-5">
-
-        {[
-          'Python',
-          'SQL',
-          'PL/SQL',
-          'Oracle Database',
-          'ETL Pipelines',
-          'Data Engineering',
-          'Data Integration',
-          'Unix Shell Scripting',
-          'Database Management',
-          'Data Validation',
-          'Data Quality',
-          'Process Automation'
-        ].map(skill => (
-
-          <span
-            key={skill}
-            className="pill text-xs px-3 py-1 rounded-full"
-          >
-            {skill}
-          </span>
-
-        ))}
-
-      </div>
-
-    </article>
-
-
-    {/* Data Analyst */}
-
-    <article className="project glass rounded-2xl p-6 md:p-8">
-
-      <div className="flex justify-between items-start gap-4">
-
-        <div className="p-3 bg-teal-400/10 rounded-xl">
-          <BriefcaseBusiness
-            className="text-teal-300"
-            size={28}
-          />
-        </div>
-
-        <span className="text-xs rounded-full border border-slate-600 px-3 py-1 text-slate-300">
-          Full-time
-        </span>
-
-      </div>
-
-      <p className="text-xs uppercase tracking-widest text-teal-300 mt-6">
-        Jan 2016 – Jan 2020
-      </p>
-
-      <h3 className="text-2xl font-bold mt-2">
-        Data Analyst
-      </h3>
-
-      <p className="text-slate-400 mt-2">
-        Stecktra Technologies Pvt. Ltd.
-      </p>
-
-      <p className="text-slate-400 text-sm mt-1">
-        Bengaluru, Karnataka, India · 4 years 1 month
-      </p>
-
-      <p className="text-slate-300 mt-4 leading-7">
-        Worked on data analysis, business reporting, and
-        enterprise data processing to support data-driven
-        decision-making. Extracted, transformed, and analyzed
-        structured data using SQL and relational databases.
-        Supported business reporting and data analysis
-        requirements.
-      </p>
-
-      <p className="text-slate-300 mt-3 leading-7">
-        Performed data cleaning, validation, and quality checks.
-        Developed SQL queries to retrieve and analyze business
-        information. Supported reporting activities using Excel
-        and database technologies. Identified opportunities to
-        automate repetitive data processing and reporting tasks.
-      </p>
-
-      <div className="flex flex-wrap gap-2 mt-5">
-
-        {[
-          'SQL',
-          'Oracle Database',
-          'Data Analysis',
-          'Data Cleaning',
-          'Data Validation',
-          'Data Quality',
-          'Microsoft Excel',
-          'Business Reporting',
-          'Database Management',
-          'Data Processing'
-        ].map(skill => (
-
-          <span
-            key={skill}
-            className="pill text-xs px-3 py-1 rounded-full"
-          >
-            {skill}
-          </span>
-
-        ))}
-
-      </div>
-
-    </article>
-
-  </div>
-
-</section>
-
+        <section id="skills" className="max-w-6xl mx-auto px-5 py-20">
+          <SectionTitle title="Technologies I Work With" description="A combination of artificial intelligence, programming, data engineering, and automation tools I use to develop practical applications." />
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+            {technologyGroups.map(group => {
+              const Icon = group.icon;
+              return <div key={group.title} className="glass rounded-2xl p-6 md:p-7">
+                <div className="flex items-center gap-3 mb-7"><Icon className="text-teal-300 shrink-0" size={27} /><h3 className="text-xl font-bold">{group.title}</h3></div>
+                <div className="flex flex-wrap gap-2">{group.items.map(item => <span key={item} className="pill rounded-full px-3 py-2 text-sm text-slate-200">{item}</span>)}</div>
+              </div>;
+            })}
+          </div>
+        </section>
 
         <section id="education" className="max-w-6xl mx-auto px-5 py-20">
           <SectionTitle title="Education" />
